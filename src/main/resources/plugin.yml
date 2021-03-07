@@ -1,0 +1,16 @@
+name: Togglecommand
+version: ${project.version}
+main: dev.nadie.togglecommand.Togglecommand
+api-version: 1.16
+prefix: ToggleCommand
+load: STARTUP
+authors: [ Nadie ]
+description: Toggleable commands :)
+website: https://nadie.dev
+commands:
+  run:
+    description: run a specificed command that is toggable
+    usage: /run [subset]
+  tc:
+    description: togglecommand sub commands
+    usage: /tc [help/reload]
